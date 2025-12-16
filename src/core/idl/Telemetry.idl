@@ -1,0 +1,11 @@
+module Telemetry
+{
+  struct Message
+  {
+    string sensor_id;
+    double value;
+    string units;
+    unsigned long long seq;
+  };
+  #pragma keylist Message sensor_id
+};

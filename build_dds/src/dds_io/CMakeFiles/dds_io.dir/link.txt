@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdds_io.a CMakeFiles/dds_io.dir/dds_wrapper.cpp.o CMakeFiles/dds_io.dir/Telemetry.cpp.o
+/usr/bin/ranlib libdds_io.a
