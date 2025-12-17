@@ -1,0 +1,39 @@
+# CMake build directories
+build/
+build_dds/
+cmake-build-*/
+out/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+*.exe
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.pro.user
+
+# Generated files
+Telemetry.hpp
+Telemetry.cpp
+Telemetry.idl.hpp
+*.pb.h
+*.pb.cc
+
+# Package managers
+/vcpkg_installed/
+.conan/
+.conan2/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
