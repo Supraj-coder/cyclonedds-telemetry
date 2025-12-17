@@ -1,5 +1,0 @@
-add_test( [==[JSON round-trip serialization]==] /home/suprajs/cyclonedds-project/build/tests/test_serialization [==[JSON round-trip serialization]==]  )
-set_tests_properties( [==[JSON round-trip serialization]==] PROPERTIES WORKING_DIRECTORY /home/suprajs/cyclonedds-project/build/tests)
-add_test( [==[Telemetry JSON roundtrip]==] /home/suprajs/cyclonedds-project/build/tests/test_serialization [==[Telemetry JSON roundtrip]==]  )
-set_tests_properties( [==[Telemetry JSON roundtrip]==] PROPERTIES WORKING_DIRECTORY /home/suprajs/cyclonedds-project/build/tests)
-set( test_serialization_TESTS [==[JSON round-trip serialization]==] [==[Telemetry JSON roundtrip]==])

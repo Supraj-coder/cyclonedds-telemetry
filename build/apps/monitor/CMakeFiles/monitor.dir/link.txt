@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/monitor.dir/main.cpp.o -o monitor  -Wl,-rpath,/home/suprajs/cyclonedds_install/lib ../../src/dds_io/libdds_io.a /home/suprajs/cyclonedds_install/lib/libddsc.so.0.11.0 

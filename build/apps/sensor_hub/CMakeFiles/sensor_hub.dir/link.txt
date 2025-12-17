@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/sensor_hub.dir/main.cpp.o -o sensor_hub  -Wl,-rpath,/home/suprajs/cyclonedds_install/lib ../../src/dds_io/libdds_io.a /home/suprajs/cyclonedds_install/lib/libddsc.so.0.11.0 
