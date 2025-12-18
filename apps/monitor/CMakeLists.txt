@@ -1,7 +1,3 @@
 add_executable(monitor main.cpp)
 target_include_directories(monitor PRIVATE ${CMAKE_SOURCE_DIR}/src/core)
-target_link_libraries(monitor PRIVATE core)
-if(ENABLE_DDS)
-  target_compile_definitions(monitor PRIVATE HAVE_CYCLONEDDS=1)
-  target_link_libraries(monitor PRIVATE dds_io)
-endif()
+target_link_libraries(monitor PRIVATE core dds_io)

@@ -1,5 +1,6 @@
 module Telemetry
 {
+  @final
   struct Message
   {
     string sensor_id;
@@ -7,5 +8,4 @@ module Telemetry
     string units;
     unsigned long long seq;
   };
-  #pragma keylist Message sensor_id
 };
