@@ -7,10 +7,11 @@
 
 
 // Simple thread-safe channel (multiple producers, single or multiple consumers)
-// Blocking pop with optional shutdown support.
+// Blocking pop with optional shutdown support.cd 
 
 template<typename T>
 class Channel {
+    
 public:
     Channel() : closed(false) {}
 
