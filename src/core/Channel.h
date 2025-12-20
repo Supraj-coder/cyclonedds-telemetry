@@ -5,6 +5,7 @@
 #include <queue>
 #include <optional>
 
+
 // Simple thread-safe channel (multiple producers, single or multiple consumers)
 // Blocking pop with optional shutdown support.
 
